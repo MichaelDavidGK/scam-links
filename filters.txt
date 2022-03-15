@@ -1,5 +1,5 @@
 ! Title: uBlock filters
-! Expires: 4 days
+! Expires: 999 days
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -12,7 +12,7 @@
 ! New filter class: entity filters, where entity = domain minus public suffix
 ! The following filters were taken out of EasyList and given an entity name,
 ! which makes them candidates to be injected early in the page.
-! Last imported: 2020-07-08
+! Last imported: 2022-03-08
 google.*###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 google.*###center_col > #\5f Emc
 google.*###center_col > #main > .dfrd > .mnr-c > .c._oc._zs
